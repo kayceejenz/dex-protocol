@@ -1,6 +1,4 @@
 import { ethers } from "hardhat";
-import fs from "fs";
-import path from "path";
 
 import { Factory__factory, Router__factory } from "../typechain-types";
 

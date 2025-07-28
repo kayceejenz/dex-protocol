@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "compile": "hardhat compile",
-    "deploy:base": "hardhat run scripts/deploy.ts --network baseSepolia"
+    "deploy:base": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "test": "npx hardhat test",
+    "test:verbose": "npx hardhat test --show-stack-traces",
+    "test:file": "npx hardhat test test/"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
